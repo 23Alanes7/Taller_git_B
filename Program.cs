@@ -5,7 +5,10 @@ namespace Alanes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
+            string name = "Kevin";
+            string apellido = "Alanes Ortega";
+            Console.WriteLine("Nombre y Apellido"+ name + apellido);
             int n1 = 2;
             int n2 = 3;
             int result = n1 + n2;
